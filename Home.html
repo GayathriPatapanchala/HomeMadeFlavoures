@@ -1,0 +1,253 @@
+<html lang="en">
+     <head>
+          <title>HOMEMADE FLAVOURS</title>
+               <meta charset="utf-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+               <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+               <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+               <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+               <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	<style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+#scroll-container1 {
+  border: 0px solid;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  color: blue;
+  font-weight: bold;
+}
+
+#scroll-container {
+  border: 0px solid;
+  background-color: #FB671C;
+  border-radius: 5px;
+  overflow: hidden;
+  color: white;
+}
+
+#scroll-text {
+  /* animation properties */
+
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 30s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  </style>
+	  </head>
+<body>
+
+<nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+   <a class="navbar-brand" href="#">
+    <img src=".\pixels\logo.jpg" alt="logo" style="width:40px;">
+  </a>
+   <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="HOME.html">HOME</a>
+    </li>
+	</ul>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="Veg-Pickels.html">Veg-Pickels</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="NonVeg-Pickels.html">NonVeg-Pickels</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Masala-Powders.html">Masala-Powders</a>
+      </li>  
+	  <li class="nav-item">
+        <a class="nav-link" href="Chilli-Powders.html">Chilli-Powders</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Sweets.html">Sweets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Hot-Chips.html">Hot-Chips</a>
+      </li> 
+    </ul>
+  </div>  
+</nav>
+
+<div class="container mt-auto">
+<div class="row">
+<div class="col-sm-12 ">
+<div id="demo" class="carousel slide"data-ride="carousel">
+<!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+	<li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner" class="carousel slide carousel-fade">
+    <div class="carousel-item active">
+      <img src=".\pixels\masala.jpg" >
+    </div>
+    <div class="carousel-item">
+      <img src=".\pixels\pickel1.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src=".\pixels\sweet items.jpg">
+    </div>
+	<div class="carousel-item">
+      <img src=".\pixels\snacks2.jpg"  >
+    </div>
+    <div class="carousel-item">
+      <img src=".\pixels\image.jpg" >
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+</div>
+</div>
+<div class="container text-center">
+<div class="container p-3 my-3 border">   
+  <h3>MENU</h3>
+    <div class="row">
+    <div class="col-sm-2">
+         <a href="Veg-Pickels.html" >
+		 <img src=".\pixels\TOMATO.jpg" class="img-responsive"  style="width:100%" alt="Image"></a>
+           <a href="Veg-Pickels.html" data-toggle="tooltip" title="Its for you..!">Veg-Pickels</a>
+    </div>
+    <div class="col-sm-2"> 
+	<a href="NonVeg-Pickels.html">
+         <img src= ".\pixels\NonVeg.jpeg" class="img-responsive"   style="width:100%" alt="Image"></a>
+         <a href="NonVeg-Pickels.html"data-toggle="tooltip" title="Congrats..50%offer only for you" >NonVeg-Pickels</a>    
+    </div>
+	    <div class="col-sm-2"> 
+		<a href="Masala-Powders.html" >
+             <img src=".\pixels\masala3.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+             <a href="Masala-Powders.html"data-toggle="tooltip" title="Congrats..50%offer only for you" >Masala-Powders</a>        
+    </div>
+    <div class="col-sm-2"> 
+	<a href="Chilli-Powders.html">
+	    <img src=".\pixels\milagaipodi.jpg" class="img-responsive"  style="width:100%" alt="Image"></a>
+       <a href="Chilli-Powders.html"data-toggle="tooltip" title="Congrats..50%offer only for you" >Chilli-Powders</a>        
+    </div>
+	<div class="col-sm-2"> 
+	<a href="Hot-Chips.html">
+	    <img src=".\pixels\snacks2.jpg"class="img-responsive" style="width:100%" alt="Image"></a>
+        <a href="Hot-Chips.html"data-toggle="tooltip" title="Congrats..50%offer only for you" >Hot-Chips</a>        
+    </div>
+	<div class="col-sm-2"> 
+	<a href="Sweets.html">
+	    <img src=".\pixels\gulabjam.jpg" class="img-responsive"  style="width:100%" alt="Image"></a>
+        <a href="Sweets.html"data-toggle="tooltip" title="Congrats..50%offer only for you" >Sweets</a>        
+    </div>
+</div>
+</div>
+</div>
+<div id="scroll-container">
+				<div id="scroll-text">
+					ONLINE FACULTY DEVELOPMENT PROGRAMME (FDP) ON Medical 	Applications Using Machine & Deep Learning Techniques Organised by Electronics 
+				</div>
+			</div>	
+<div class="container text-center">
+<div class="container p-3 my-3 border">   
+     <h3>SPECIALS</h3>
+	 				<div class="row">
+
+    <div id="scroll-container">
+				<div id="scroll-text">
+				<a href="aboutus.html"><img id="myImg" src=".\Veg Pickels\veg10.jpeg" alt="Snow" style="width:50%;max-width:300px" >
+                </a>
+        <a href="aboutus.html"><img src=".\Sweets\s8.jpeg"  style="width:25%";max-width:200px alt="Image">
+              </a>
+				<a href="aboutus.html"><img id="myImg" src=".\Chilli Powders\m7.jpeg"alt="Snow" style="width:95%;max-width:300px">
+                </a>
+				<a href="aboutus.html"><img id="myImg" src=".\Chilli Powders\m9.jpeg" alt="Snow" style="width:100%;max-width:300px">
+                </a>
+				<a href="aboutus.html"><img id="myImg" src=".\Hot Chips\h6.jpeg" alt="Snow" style="width:100%;max-width:300px">
+                </a>
+				<a href="aboutus.html"><img id="myImg" src=".\Veg Pickels\veg10.jpeg" alt="Snow" style="width:100%;max-width:300px">
+                </a>
+				</div>
+			</div>
+			</div>
+</div>   
+</div><br> 
+    <div class="jumbotron text-center">
+  <h1>HOMEMADE FLAVOURS</h1>
+ <p>Homemade food is usually prepared with natural ingredients compared to commercially prepared food.</p>  
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>About Us</h3>
+      <p>
+       We were doing well with our homemade mommy-granny</p> 
+        <p>Foods and our customers asked “why don’t you try</p>
+        <p>to share and supply us our childhood memories?”</p>
+        <p>We were shocked and then our customer said, </p>
+        <p>by tasting our pickles, he got to remember the taste</p>
+        <p>of his granny pickles from childhood and</p>
+     <p>We thought let’s bring back even more memories to all our customers by offering
+       exotic and rare fruits & flowers too.</p>  
+    </div>
+    <div class="col-sm-4">
+      <h3>Know More</h3>
+       <p>...........</p>
+	    <p>...........</p>
+		 <p>...........</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Contact Us</h3>        
+       <p>9346010595</p>
+	    <p>6305002622</p>
+		 <p>...</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>	  
